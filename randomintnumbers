@@ -1,0 +1,8 @@
+#! /usr/bin/python
+# This script will show 10 random numbers between 1 to 10
+from random import randint
+try:
+    for x in range(10):
+        print(randint(1, 10)),
+except:
+    print("Ohh !! something wrong here !!")
